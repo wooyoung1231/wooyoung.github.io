@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body{
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+        background-image:url("ex.jpg");
+      }
+
+      .header {
+        padding: 30px;
+        text-align: center;
+
+      }
+
+      .header h1 {
+        font-size: 50px;
+        text-underline-position: none;
+      }
+
+      .topnav {
+         overflow: hidden;
+         background-color: #333;
+       }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1><a href="index.html">Woo Young - Choi</a></h1>
+      <p>his artwork exhibition in website.</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index2.html">디자인</a>
+      <a href="index3.html">영상</a>
+      <a href="index4.html">일러스트</a>
+
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>모션그래픽</h2>
+          <h5>제주도 </h5>
+          <div class="" style="height:240px;"> <video width="320" height="240"  controls loop>
+          <source src='22061115_최우영.mp4' type='video/mp4'>
+          <source src='22061115_최우영.webm' type="video/webm">
+          <source src="22061115_최우영.ogg" type="video/ogg">
+            </video> </div>
+
+          <p>제주도에 여행을 갔다왔다가 사람들에게 소개시켜 주고싶어서 제작하였다.</p>
+        </div>
+        <div class="card">
+          <h2>3D 광고</h2>
+          <h5>빼빼로</h5>
+          <div class="" style="height:240px;">   <video width="320" height="240"  controls loop>
+            <source src='pepero.mp4' type='video/mp4'>
+            <source src='pepero.webm' type="video/webm">
+            <source src="pepero.ogg" type="video/ogg">
+              </video> </div>
+          <p>3D max로 제작한 영상이다, 열심히하고 원하는 만큼의 결과가 나와 만족한다.</p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>About Me</h2>
+          <div class="" style="height:400px;"> <img src="yy.jpg" alt=""> </div>
+          <h4>최우영 (2001~???)</h4>
+          <p>이 전시회를 개최한 Artist이다, 앞으로의 행보가 기대된다.</p>
+        </div>
+        <div class="card">
+          <h3>Popular Post</h3>
+          <div class=""> <img src="a.png" alt=""> </div>
+          <div class=""> <img src="b.png" alt=""> </div>
+          <div class=""> <img src="c.png" alt=""> </div>
+        </div>
+        <div class="card">
+          <h3>Fllow Me</h3>
+          <p>Instagram: <a href="https://www.instagram.com/wear__youth/?hl=ko">wear_youth</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h4>P.H 010-9956-5642 연락환영(찡긋)</h4>
+      <h4>인스타 팔로우 환영 맞팔해드림(찡긋)</h4>
+    </div>
+
+  </body>
+</html>
